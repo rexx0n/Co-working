@@ -1,10 +1,14 @@
 .nav-menu {
-  margin-top: 24px;
+  padding-top: 24px;
   display: flex;
   align-items: center;
+  padding-bottom: 15px;
   &--center {
     justify-content: center;
     margin-right: 29px;
+    border-top: 1px solid #dddfe0;
+    padding-top: 13px;
+    padding-bottom: 29px;
   }
   &__tel {
     font-weight: 500;
@@ -42,9 +46,14 @@
   }
   &__bg {
     box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.09);
+    background: #ffffff;
     border-radius: 4px;
-    padding-left: 12px;
-    padding-top: 9px;
+    li {
+      padding-bottom: 5px;
+      padding-top: 9px;
+      padding-left: 12px;
+      background: #ffffff;
+    }
   }
   &__list {
     display: flex;
@@ -72,11 +81,16 @@
       display: block;
     }
     ul ul {
+      a {
+        padding-left: 20px;
+        max-width: 140px;
+      }
       display: none;
       position: absolute;
       top: 0;
       left: 100%;
-      padding-left: 30px;
+      background: #ffffff;
+      box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.09);
     }
   }
 }
