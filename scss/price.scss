@@ -1,0 +1,86 @@
+.price {
+  margin-top: 100px;
+  &__week {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 20px;
+    button {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 120%;
+      color: #ffffff;
+      background: #bfbfbf;
+      border-radius: 4px;
+      padding: 1px 20px 1px 20px;
+      border: none;
+      &:hover {
+        background: #ffe600;
+      }
+    }
+  }
+  h1 {
+    font-family: "Tenor Sans";
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 120%;
+    padding-bottom: 20px;
+  }
+  p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    color: #363348;
+  }
+  &__cards {
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+  }
+  &__card {
+    background: #ffffff;
+    box-shadow: 0px 4px 10px 10px rgb(0 0 0 / 4%);
+    border-radius: 24px;
+    padding: 44px;
+    max-width: 387px;
+    width: 100%;
+    p {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 26px;
+      padding-top: 20px;
+      padding-bottom: 10px;
+      color: #000000;
+    }
+    > button {
+      display: flex;
+      margin: 0 auto;
+      justify-content: center;
+      padding: 18px 55px 18px 55px;
+      border: none;
+      background: #ffe600;
+      border-radius: 4px;
+    }
+  }
+  &__row {
+    color: #34343f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  h4 {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 32px;
+  }
+  &__weekdays {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+  }
+  &__price {
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 120%;
+  }
+}

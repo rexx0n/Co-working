@@ -6,9 +6,92 @@
     font-size: 44px;
     line-height: 120%;
   }
+  &__img {
+    display: flex;
+    justify-content: center;
+    &--flex-end {
+      justify-content: flex-end;
+    }
+  }
+  &__cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 19px;
+    margin-top: 40px;
+  }
   &__card {
+    border-radius: 24px;
+    .services__text {
+      max-width: 163px;
+      position: absolute;
+      margin-top: 49px;
+      border-radius: 4px;
+      margin-right: -3px;
+      box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.08);
+      p {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 120%;
+        color: #000000;
+      }
+      background-color: #ffffff;
+      padding: 6px 8px 7px 8px;
+    }
     h4 {
-        
+      font-family: "Tenor Sans";
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 120%;
+      padding-bottom: 30px;
+    }
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 120%;
+    }
+    &--big {
+      max-width: 590px;
+      padding: 30px 42px 0px 42px;
+      max-height: 370px;
+    }
+    &--kitchen {
+      background: #eee9e8;
+    }
+    &--cleaning {
+      h4 {
+        color: #000000;
+      }
+      background: #fff9c1;
+    }
+    &--location {
+      color: white;
+      background: #4f4f4f;
+    }
+    &--small {
+      padding: 30px 33px 0px 33px;
+      max-width: 387px;
+      max-height: 369px;
+      h4 {
+        color: #2b291f;
+      }
+      p {
+        color: #6e6e6e;
+      }
+    }
+    &--sofas {
+      background: #eaecef;
+      h4 {
+        color: #2b291f;
+      }
+      p {
+        color: #6e6e6e;
+      }
+      img {
+        margin-top: -20px;
+      }
+    }
+    &--parking {
+      background: rgba(239, 234, 187, 0.6);
     }
   }
 }
