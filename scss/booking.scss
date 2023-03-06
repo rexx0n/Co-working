@@ -1,0 +1,18 @@
+.booking {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  &__info {
+    p {
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 120%;
+      color: #34343f;
+      margin-top: 20px;
+      margin-bottom: 40px;
+    }
+    .button {
+      padding: 18px 0;
+    }
+  }
+}
