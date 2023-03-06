@@ -1,0 +1,41 @@
+.forWho {
+  display: flex;
+  margin-top: 100px;
+  &__info {
+    max-width: 482px;
+  }
+  hr {
+    width: 39.19px;
+    height: 1px;
+    color: #353535;
+  }
+  h4 {
+    font-family: "Tenor Sans";
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 120%;
+    color: #34343f;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+  &__professions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: #34343f;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .button {
+    max-width: 286px;
+    width: 100%;
+    padding: 18px 0px;
+  }
+}
