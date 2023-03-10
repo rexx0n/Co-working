@@ -1,0 +1,33 @@
+.questions {
+  margin-top: 100px;
+
+  &__question {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 0.9px solid #dddddd;
+    p {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 120%;
+      color: #34343f;
+    }
+  }
+  &__info {
+  }
+  &__span {
+    display: none;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 120%;
+    color: #34343f;
+    &--visible {
+      display: block;
+      padding-top: 20px;
+    }
+  }
+  &__arrow--none {
+    display: none;
+  }
+}
