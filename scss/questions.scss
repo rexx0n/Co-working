@@ -1,6 +1,9 @@
 .questions {
+  margin: 0 auto;
   margin-top: 100px;
-
+  button {
+    padding: 18px 61px;
+  }
   &__question {
     display: flex;
     justify-content: space-between;
