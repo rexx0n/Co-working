@@ -1,0 +1,21 @@
+.baner {
+  margin-top: 100px;
+  background: #f2f2f2;
+  background-image: url(../img/baner.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 81px 102px;
+  h3 {
+    font-family: "Tenor Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 45px;
+    max-width: 517px;
+    color: #807f7f;
+    margin-bottom: 20px;
+  }
+  .button {
+    padding: 18px 61px;
+  }
+}

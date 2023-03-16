@@ -1,0 +1,48 @@
+.adress {
+  display: flex;
+  margin-top: 100px;
+  &__grafic {
+    max-width: 118px;
+  }
+  &__contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    p {
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 120%;
+    }
+  }
+  &__phone {
+    display: flex;
+    align-items: center;
+    span {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 120%;
+      color: #34343f;
+      margin-right: 24px;
+    }
+    svg {
+      margin-right: 20px;
+    }
+  }
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  &__metro {
+    display: flex;
+    h5 {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 120%;
+      color: #000000;
+    }
+    svg {
+      margin-right: 9px;
+    }
+  }
+}
