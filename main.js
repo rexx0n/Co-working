@@ -1,3 +1,4 @@
+import './scss/style.scss'
 let arrowDown = document.querySelectorAll('.questions__arrow-down')
 let arrowUp = document.querySelectorAll('')
 let questions = document.querySelector('.questions__info')
