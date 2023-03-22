@@ -1,0 +1,60 @@
+.team {
+  margin-top: 100px;
+  &__carousel {
+    margin-top: 40px;
+    display: flex;
+    gap: 21px;
+  }
+  &__card {
+    display: flex;
+    flex-direction: column;
+    max-width: 284px;
+    span {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 36px;
+      color: #34343f;
+      p {
+        font-weight: 400;
+        font-size: 16px;
+      }
+    }
+  }
+  &__row {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__info {
+    background: url(../img/team__info--bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    max-width: 693px;
+  }
+  &__panel {
+    padding: 27px 25px;
+    background: #f2f2f2;
+    border-radius: 16px;
+
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      color: #34343f;
+      margin-bottom: 20px;
+    }
+    span {
+      display: flex;
+      align-items: flex-end;
+      flex-direction: column;
+      color: #34343f;
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 36px;
+      span {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+      }
+    }
+  }
+}
