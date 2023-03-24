@@ -29,6 +29,7 @@
       ul {
         a {
           font-size: 14px;
+          white-space: nowrap;
         }
       }
     }
@@ -45,14 +46,19 @@
     }
   }
   &__bg {
-    box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.09);
     background: #ffffff;
     border-radius: 4px;
+    box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.09);
     li {
       padding-bottom: 5px;
       padding-top: 9px;
       padding-left: 12px;
       background: #ffffff;
+      ul {
+        li {
+          padding-right: 10px;
+        }
+      }
     }
   }
   &__list {
@@ -61,6 +67,7 @@
       position: relative;
       list-style-type: none;
       gap: 5px;
+      padding-right: 10px;
       &::marker {
         color: white;
       }
@@ -82,7 +89,6 @@
     }
     ul ul {
       a {
-        padding-left: 20px;
         max-width: 140px;
       }
       display: none;
@@ -90,7 +96,6 @@
       top: 0;
       left: 100%;
       background: #ffffff;
-      box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.09);
     }
   }
 }
