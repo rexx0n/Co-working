@@ -1,0 +1,75 @@
+.job {
+  margin-bottom: 100px;
+  &__title {
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+  &__message {
+    padding: 23px 63px 23px 50px;
+    background: #ffe500;
+    border-radius: 30px;
+    max-width: 338.09px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #363348;
+  }
+  &__payments {
+    margin-top: 40px;
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: space-between;
+    p {
+      max-width: 793px;
+
+      line-height: 150%;
+    }
+  }
+  &__info {
+    p {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      color: #363348;
+    }
+    h5 {
+      font-family: "Tenor Sans";
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 32px;
+      color: #34343f;
+      max-width: 373px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  }
+  &__price {
+    margin-top: 40px;
+    display: flex;
+    gap: 23px;
+  }
+  &__panel {
+    margin-bottom: 20px;
+    p {
+      line-height: 26px;
+      padding: 11px 79px 11px 30px;
+      position: relative;
+      border-radius: 16px;
+      background-color: #f2f2f2;
+    }
+    p::after {
+      content: url("../img/galoshka.png");
+      position: absolute;
+      top: -30px;
+      right: 0;
+    }
+  }
+}
