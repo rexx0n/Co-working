@@ -1,0 +1,57 @@
+.address-contacts {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  h3 {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    color: #34343f;
+    margin-bottom: 37px;
+  }
+  &__contact {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    a {
+      text-decoration: none;
+    }
+    span {
+      display: flex;
+      gap: 20px;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+      color: #34343f;
+    }
+  }
+  &__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  &__contacts {
+    display: flex;
+    justify-content: space-between;
+  }
+  h1 {
+    font-family: "Tenor Sans";
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 58px;
+    margin-bottom: 40px;
+    color: #000000;
+  }
+  &__card {
+    display: flex;
+    gap: 20px;
+  }
+  &__panel {
+    background: #f2f2f2;
+    border-radius: 16px;
+    padding: 30px 65px 30px 51px;
+    button {
+      padding: 18px 22px;
+      max-width: 210px;
+    }
+  }
+}

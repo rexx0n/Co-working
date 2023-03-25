@@ -1,0 +1,44 @@
+.our-contacts {
+  display: flex;
+  justify-content: space-between;
+  &__info {
+    h1 {
+      font-family: "Tenor Sans";
+      font-size: 50px;
+      line-height: 58px;
+      color: #36392f;
+      font-weight: 400;
+      margin-bottom: 40px;
+    }
+  }
+  &__svg {
+    display: flex;
+    margin-top: 20px;
+    gap: 40px;
+  }
+  &__contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    span {
+      font-weight: 500;
+      font-size: 20.4px;
+      line-height: 37px;
+      color: #000000;
+      display: flex;
+      gap: 12px;
+      align-items: center;
+    }
+    a {
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 37px;
+      color: #000000;
+      text-decoration: none;
+    }
+  }
+  &__link {
+    display: flex;
+    flex-direction: column;
+  }
+}
