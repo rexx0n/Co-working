@@ -2,6 +2,9 @@
   padding-top: 38px;
   padding-bottom: 64px;
   margin-bottom: 106px;
+  &--news {
+    margin-bottom: 24px;
+  }
   &__info {
     display: flex;
     justify-content: space-between;
@@ -68,4 +71,8 @@
 }
 .bg-footer {
   background: #ffffff;
+  &--news {
+    max-width: 1440px;
+    margin: auto;
+  }
 }
