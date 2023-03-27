@@ -1,0 +1,68 @@
+.price-page {
+  .location {
+    a {
+      background: #ffffff;
+      box-shadow: 0px 12px 14px rgba(54, 51, 72, 0.137812);
+      border-radius: 50px;
+      padding: 20px 20px 16px 20px;
+    }
+    span {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      color: #363348;
+      margin-left: 30px;
+    }
+  }
+  h1 {
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 50px;
+    color: #363348;
+  }
+  &__info {
+    margin-top: 40px;
+    p {
+      padding-bottom: 20px;
+      line-height: 150%;
+      color: #34343f;
+    }
+  }
+  &__cards {
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+  }
+  &__card {
+    max-width: 387px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 34px 23px;
+    background: #f2f2f2;
+    border-radius: 16px;
+    h5 {
+      font-weight: 700;
+      line-height: 26px;
+      color: #000000;
+      font-size: 16px;
+    }
+    p {
+      font-family: "Tenor Sans";
+      font-size: 26px;
+      line-height: 30px;
+      color: #363348;
+    }
+    button {
+      margin: auto;
+      font-weight: 500;
+      line-height: 19px;
+      color: #514f4f;
+      background: #ffffff;
+      border-radius: 4px;
+      max-width: 210px;
+      padding: 17px 61px;
+      border: none;
+    }
+  }
+}
