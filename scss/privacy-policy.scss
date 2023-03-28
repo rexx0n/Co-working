@@ -1,0 +1,20 @@
+.privacy-policy {
+  h1 {
+    line-height: 39px;
+    color: #363348;
+  }
+  &__text {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 100px;
+    p {
+      line-height: 150%;
+      color: #34343f;
+    }
+  }
+  .footer {
+    margin-bottom: 11px;
+  }
+}

@@ -1,0 +1,38 @@
+.legal {
+  .location {
+    margin-bottom: 0;
+  }
+  .footer {
+    margin-bottom: 24px;
+  }
+  &__list {
+    margin-bottom: 100px;
+    ul {
+      list-style-type: none;
+      li {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 26px;
+        color: #807f7f;
+        border-bottom: 1px solid #e0e0e7;
+        padding-bottom: 40px;
+        padding-top: 40px;
+        &:hover {
+          color: #000000;
+          a {
+            color: #000000;
+          }
+        }
+        a {
+          font-family: "Tenor Sans";
+          font-weight: 400;
+          font-size: 30px;
+          line-height: 39px;
+          color: #807f7f;
+          margin-left: 34px;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
