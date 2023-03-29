@@ -1,0 +1,39 @@
+.payments-methods {
+  .footer {
+    margin-bottom: 27px;
+  }
+  h1 {
+    color: #363348;
+  }
+  h2 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 32px;
+    color: #34343f;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  &__banks {
+    display: flex;
+    max-width: 377px;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  &__organization {
+    margin-bottom: 100px;
+    h4 {
+      font-size: 20px;
+      line-height: 32px;
+      color: #34343f;
+    }
+    p {
+      font-size: 20px;
+      line-height: 32px;
+      color: #34343f;
+      span {
+        color: #5f6161;
+      }
+    }
+  }
+}
