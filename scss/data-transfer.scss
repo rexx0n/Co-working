@@ -1,0 +1,19 @@
+.data-transfer {
+  .footer {
+    margin-bottom: 27px;
+  }
+  p {
+    color: #34343f;
+    line-height: 150%;
+  }
+  h1 {
+    color: #34343f;
+    margin-bottom: 40px;
+  }
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 100px;
+  }
+}
