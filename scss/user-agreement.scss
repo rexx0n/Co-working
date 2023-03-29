@@ -1,0 +1,36 @@
+.user-agreement {
+  &__list {
+    margin-top: 40px;
+    > ol {
+      > li {
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 32px;
+        color: #34343f;
+        > ol {
+          > li {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            color: #34343f;
+            &:before {
+              font-weight: 700;
+              font-size: 16px;
+              line-height: 26px;
+              color: #514f4f;
+              padding-right: 30px;
+            }
+          }
+        }
+      }
+    }
+    ol {
+      list-style: none;
+      counter-reset: li;
+    }
+    li:before {
+      counter-increment: li;
+      content: counters(li, ".") ". ";
+    }
+  }
+}
