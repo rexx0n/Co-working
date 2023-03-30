@@ -1,18 +1,31 @@
 .user-agreement {
+  .footer {
+    margin-bottom: 27px;
+  }
   &__list {
     margin-top: 40px;
+    margin-bottom: 100px;
     > ol {
       > li {
         font-weight: 400;
         font-size: 30px;
         line-height: 32px;
         color: #34343f;
+        margin-bottom: 20px;
         > ol {
-          > li {
+          .user-agreement__block {
+            display: block;
+          }
+          li {
             font-weight: 400;
             font-size: 16px;
             line-height: 150%;
             color: #34343f;
+            display: flex;
+            > ol li {
+              margin-left: 20px;
+              display: flex;
+            }
             &:before {
               font-weight: 700;
               font-size: 16px;
@@ -31,6 +44,14 @@
     li:before {
       counter-increment: li;
       content: counters(li, ".") ". ";
+    }
+  }
+  &__flex {
+    display: flex;
+    white-space: wrap;
+    flex-wrap: wrap;
+    &:before {
+      max-width: 5px;
     }
   }
 }
