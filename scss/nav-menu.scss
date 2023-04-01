@@ -99,3 +99,31 @@
     }
   }
 }
+@media screen and (max-width: 1440px) {
+  .nav-menu {
+    &__tel {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 21px;
+      padding-left: 64px;
+    }
+    &--center {
+      justify-content: space-evenly;
+    }
+    .logo {
+      margin-right: 54px;
+      svg {
+        width: 99px;
+        height: 29px;
+      }
+    }
+    nav {
+      gap: 34px;
+      a {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+      }
+    }
+  }
+}

@@ -24,3 +24,18 @@
     line-height: 120%;
   }
 }
+@media screen and (max-width: 1440px) {
+  .work {
+    img {
+      max-width: 370px;
+      max-height: 440px;
+    }
+    &__info {
+      h1 {
+        font-weight: 400;
+        font-size: 44px;
+        line-height: 120%;
+      }
+    }
+  }
+}

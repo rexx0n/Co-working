@@ -89,3 +89,35 @@
     }
   }
 }
+@media screen and (max-width: 1440px) {
+  h1 {
+    max-width: 600px;
+    font-size: 34px;
+  }
+  .services {
+    &__card--big {
+      max-width: 442px;
+    }
+    &__card {
+      .services__text {
+        margin-top: 9px;
+      }
+      h4 {
+        padding-bottom: 20px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+    &__card--small {
+      padding: 30px 17px 0 17px;
+      max-width: 288px;
+    }
+    &__img {
+      img {
+        max-width: 387px;
+        max-height: 155px;
+      }
+    }
+  }
+}
