@@ -102,3 +102,21 @@
     line-height: 120%;
   }
 }
+@media screen and (max-width: 1440px) {
+  .price {
+    &__cards {
+      justify-content: center;
+    }
+    > p {
+      max-width: 643px;
+    }
+    &__card {
+      h4 {
+        line-height: 120%;
+      }
+    }
+    &__none {
+      display: none;
+    }
+  }
+}

@@ -39,3 +39,24 @@
     padding: 18px 0px;
   }
 }
+@media screen and (max-width: 1440px) {
+  .forWho {
+    &__card {
+      img {
+        max-width: 211px;
+        height: 158px;
+      }
+    }
+    &__professions {
+      justify-content: flex-start;
+    }
+    &__info {
+      h1 {
+        width: 444px;
+      }
+      p {
+        max-width: 362px;
+      }
+    }
+  }
+}
