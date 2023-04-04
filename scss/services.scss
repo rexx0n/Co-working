@@ -90,11 +90,11 @@
   }
 }
 @media screen and (max-width: 1440px) {
-  h1 {
-    max-width: 600px;
-    font-size: 34px;
-  }
   .services {
+    h1 {
+      max-width: 600px;
+      font-size: 34px;
+    }
     &__card--big {
       max-width: 442px;
     }

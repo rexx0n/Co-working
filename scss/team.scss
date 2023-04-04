@@ -58,3 +58,43 @@
     }
   }
 }
+@media screen and (max-width: 1440px) {
+  .team {
+    &__row {
+      img {
+        max-width: 288px;
+        max-height: 296px;
+      }
+    }
+    &__info {
+      h1 {
+        font-size: 34px;
+        margin-left: 23px;
+      }
+      p {
+        font-size: 14px;
+        margin: 0;
+      }
+    }
+    &__panel {
+      max-width: 593px;
+      margin: 0;
+      padding: 17px;
+      margin-left: 23px;
+      span {
+        span {
+          font-size: 20px;
+        }
+      }
+    }
+    &__card {
+      img {
+        max-width: 211px;
+        max-height: 213px;
+      }
+      span {
+        font-size: 26px;
+      }
+    }
+  }
+}

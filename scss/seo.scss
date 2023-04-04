@@ -11,7 +11,6 @@
       p {
         color: #000000;
         max-width: 592px;
-
       }
     }
   }
@@ -42,6 +41,16 @@
       font-size: 20px;
       line-height: 32px;
       color: #363348;
+    }
+  }
+}
+@media screen and (max-width: 1440px) {
+  .seo {
+    &__row {
+      img {
+        max-width: 441px;
+        max-height: 325px;
+      }
     }
   }
 }

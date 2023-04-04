@@ -79,3 +79,14 @@
     text-align: center;
   }
 }
+@media screen and (max-width: 1440px) {
+  .gift {
+    &__row {
+      align-items: center;
+      img {
+        max-width: 442px;
+        max-height: 278px;
+      }
+    }
+  }
+}

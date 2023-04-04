@@ -23,3 +23,37 @@
     }
   }
 }
+@media screen and (max-width: 1440px) {
+  .about {
+    h1 {
+      font-size: 34px;
+    }
+    .benefits {
+      &--h1 {
+        max-width: 489px;
+        font-size: 34px;
+      }
+      &__card {
+        flex-direction: column;
+        padding: 20px 0px 0px 20px;
+        max-width: 211px;
+        align-items: flex-start;
+        gap: 20px;
+        height: 163px;
+        div {
+          margin-left: 0px;
+          h5 {
+            font-size: 14px;
+          }
+          p {
+            font-size: 14px;
+            line-height: 120%;
+          }
+        }
+      }
+      &__number {
+        top: 0;
+      }
+    }
+  }
+}

@@ -47,3 +47,22 @@
     }
   }
 }
+@media screen and (max-width: 1440px) {
+  .adress {
+    justify-content: space-between;
+    margin-top: 193px;
+    position: relative;
+    &__map {
+      iframe {
+        max-width: 592px;
+        max-height: 358px;
+      }
+    }
+    &__contacts {
+      h1 {
+        position: absolute;
+        top: -100px;
+      }
+    }
+  }
+}

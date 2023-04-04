@@ -76,3 +76,16 @@
     margin: auto;
   }
 }
+@media screen and (max-width: 1440px) {
+  .footer {
+    margin-bottom: 10px;
+    &__links {
+      margin-left: -90px;
+      h2 {
+        font-weight: 500; 
+        font-size: 21px;
+        line-height: 26px;
+      }
+    }
+  }
+}

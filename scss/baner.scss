@@ -19,3 +19,15 @@
     padding: 18px 61px;
   }
 }
+@media screen and (max-width: 1440px) {
+  .baner {
+    margin-left: -51px;
+    margin-right: -51px;
+    padding: 114px 0px 114px 63px;
+    background-position-x: 489px;
+    h3 {
+      font-size: 32px;
+      line-height: 120%;
+    }
+  }
+}
