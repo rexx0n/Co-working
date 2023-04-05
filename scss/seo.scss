@@ -46,10 +46,40 @@
 }
 @media screen and (max-width: 1440px) {
   .seo {
+    div:last-child {
+      .seo__info {
+        p {
+          max-width: 442px;
+        }
+      }
+    }
     &__row {
+      margin-bottom: 40px;
+      margin-top: 40px;
       img {
         max-width: 441px;
         max-height: 325px;
+      }
+      &:last-child {
+        max-width: 900px;
+        h1 {
+          max-width: 442px;
+        }
+        .seo__info {
+          gap: 20px;
+        }
+      }
+    }
+    &__info {
+      max-width: 365px;
+    }
+    &__title {
+      h1 {
+        margin-bottom: 40px;
+      }
+      p {
+        font-size: 18px;
+        line-height: 120%;
       }
     }
   }

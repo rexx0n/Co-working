@@ -36,3 +36,13 @@
     }
   }
 }
+@media screen and (max-width: 1440px) {
+  .legal {
+    &__list {
+      li {
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+}

@@ -66,3 +66,26 @@
     }
   }
 }
+@media screen and (max-width: 1440px) {
+  .price-page {
+    h1 {
+      font-size: 34px;
+      line-height: 50px;
+    }
+    &__news {
+      margin-top: 100px;
+    }
+    &__card {
+      gap: 20px;
+      padding: 30px 24px;
+      p {
+        font-size: 18px;
+        line-height: 21px;
+      }
+      button {
+        max-width: 157px;
+        padding: 12px 35px;
+      }
+    }
+  }
+}

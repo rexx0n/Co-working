@@ -39,3 +39,31 @@
     margin-top: 20px;
   }
 }
+@media screen and (max-width: 1440px) {
+  .finance {
+    &__row {
+      img {
+        max-width: 442px;
+      }
+    }
+    &__info {
+      > p {
+        line-height: 120%;
+      }
+      ul {
+        margin-left: 85px;
+        li {
+          max-width: 590px;
+          span {
+            margin-right: 19px;
+          }
+        }
+      }
+    }
+    &__panel {
+      p {
+        line-height: 120%;
+      }
+    }
+  }
+}

@@ -42,3 +42,23 @@
     flex-direction: column;
   }
 }
+@media screen and (max-width: 1440px) {
+  .our-contacts {
+    img {
+      max-width: 519px;
+      max-height: 344px;
+    }
+    &__info {
+      h1 {
+        font-size: 34px;
+        line-height: 40px;
+      }
+      a {
+        font-size: 28px;
+      }
+    }
+    &__svg {
+      margin-top: 40px;
+    }
+  }
+}

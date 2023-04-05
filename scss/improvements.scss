@@ -22,3 +22,15 @@
     }
   }
 }
+@media screen and (max-width: 1440px) {
+  .improvements {
+    &__card {
+      img {
+        max-width: 288px;
+      }
+    }
+    &__info {
+      margin-top: 20px;
+    }
+  }
+}

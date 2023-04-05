@@ -73,3 +73,46 @@
     }
   }
 }
+@media screen and (max-width: 1440px) {
+  .job {
+    > h1 {
+      max-width: 673px;
+    }
+    &__payments {
+      margin-bottom: 40px;
+      p {
+        max-width: 519px;
+        line-height: 120%;
+      }
+    }
+    &__title {
+      margin-bottom: 40px;
+      h1 {
+        max-width: 749px;
+      }
+      img {
+        max-width: 596px;
+      }
+    }
+    &__price {
+      img {
+        max-width: 437px;
+        max-height: 330px;
+      }
+    }
+    &__panel {
+      p::after {
+        content: url(../img/star.png);
+      }
+      p {
+        font-size: 14px;
+        padding: 4px 61px 13px 15px;
+      }
+    }
+    &__info {
+      p {
+        line-height: 120%;
+      }
+    }
+  }
+}
