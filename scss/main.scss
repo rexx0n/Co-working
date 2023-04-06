@@ -34,9 +34,6 @@
 @media screen and (max-width: 1440px) {
   .main {
     h1 {
-      font-family: "Tenor Sans";
-      font-style: normal;
-      font-weight: 400;
       font-size: 51px;
       line-height: 120%;
       max-width: 500px;
@@ -47,6 +44,18 @@
       font-size: 16px;
       line-height: 120%;
       max-width: 500px;
+    }
+  }
+}
+@media screen and (max-width: 1024px) {
+  .main {
+    padding-bottom: 351px;
+    h1 {
+      font-size: 48px;
+      max-width: 626px;
+    }
+    &__p {
+      max-width: 413px;
     }
   }
 }

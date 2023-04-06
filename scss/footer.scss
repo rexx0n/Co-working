@@ -82,10 +82,31 @@
     &__links {
       margin-left: -90px;
       h2 {
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 21px;
         line-height: 26px;
       }
+    }
+  }
+}
+@media screen and (max-width: 1024px) {
+  .footer {
+    .logo {
+      margin-right: 20px;
+    }
+    &__links {
+      h2 {
+        font-size: 16px;
+      }
+    }
+    &__adress {
+      gap: 40px;
+      &--2 {
+        gap: 72px;
+      }
+    }
+    &__contacts {
+      gap: 25px;
     }
   }
 }

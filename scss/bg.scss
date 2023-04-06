@@ -9,3 +9,9 @@
     background-position: right;
   }
 }
+@media screen and (max-width: 1024px) {
+  .bg {
+    background-position-x: right;
+    background-position-y: bottom;
+  }
+}

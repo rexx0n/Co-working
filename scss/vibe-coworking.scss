@@ -39,3 +39,13 @@
     }
   }
 }
+@media screen and (max-width: 1024px) {
+  .vibe-coworking {
+    h1 {
+      font-size: 34px;
+    }
+    &__phone {
+      max-width: 236px;
+    }
+  }
+}

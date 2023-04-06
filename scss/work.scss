@@ -39,3 +39,21 @@
     }
   }
 }
+@media screen and (max-width: 1024px) {
+  .work {
+    justify-content: space-between;
+    img {
+      max-width: 294px;
+      max-height: 352px;
+    }
+    &__info {
+      max-width: 364px;
+      p {
+        font-size: 14px;
+      }
+      h1 {
+        font-size: 34px;
+      }
+    }
+  }
+}

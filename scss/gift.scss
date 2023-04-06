@@ -90,3 +90,25 @@
     }
   }
 }
+@media screen and (max-width: 1024px) {
+  .gift {
+    &__row {
+      &--2 {
+        justify-content: space-between;
+      }
+      h2 {
+        font-size: 26px;
+      }
+      img {
+        max-width: 363px;
+      }
+    }
+    &__input {
+      max-width: 364px;
+    }
+    &__info {
+      margin-left: 0;
+      max-width: 364px;
+    }
+  }
+}

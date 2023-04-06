@@ -120,3 +120,13 @@
     }
   }
 }
+@media screen and (max-width: 1024px) {
+  .price {
+    > p {
+      font-size: 14px;
+    }
+    &__card {
+      padding: 44px 28px;
+    }
+  }
+}

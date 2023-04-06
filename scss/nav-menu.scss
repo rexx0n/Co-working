@@ -127,3 +127,20 @@
     }
   }
 }
+@media screen and (max-width: 1024px) {
+  .nav-menu {
+    .logo {
+      margin-right: 28px;
+    }
+    nav {
+      gap: 20px;
+      a {
+        font-size: 14px;
+      }
+    }
+    &__tel {
+      font-size: 16px;
+      padding-left: 52px;
+    }
+  }
+}

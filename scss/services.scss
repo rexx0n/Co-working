@@ -121,3 +121,52 @@
     }
   }
 }
+@media screen and (max-width: 1024px) {
+  .services {
+    margin-top: 74px;
+
+    &__card {
+      h4 {
+        font-size: 18px;
+      }
+      p {
+        font-size: 12px;
+        line-height: 120%;
+      }
+      .services__text {
+        p {
+          font-size: 7px;
+          line-height: 120%;
+        }
+        padding: 5px 5px 10px 5px;
+        max-width: 100px;
+        max-height: 71px;
+      }
+      &--big {
+        max-width: 364px;
+      }
+      &--small {
+        max-width: 236px;
+        max-height: 237px;
+      }
+      &--parking {
+        img {
+          max-width: 161px;
+          max-height: 97px;
+        }
+      }
+      &--kitchen {
+        img {
+          max-width: 226px;
+          max-height: 109px;
+        }
+      }
+      &--cleaning {
+        img {
+          max-width: 131px;
+          max-height: 97px;
+        }
+      }
+    }
+  }
+}

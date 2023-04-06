@@ -60,3 +60,27 @@
     }
   }
 }
+@media screen and (max-width: 1024px) {
+  .forWho {
+    h4 {
+      font-size: 19px;
+    }
+    &__info {
+      margin-right: 34px;
+      max-width: 344px;
+      h1 {
+        font-size: 34px;
+      }
+      p {
+        font-size: 14px;
+        max-width: 307px;
+      }
+    }
+    &__card {
+      img {
+        max-width: 174px;
+        max-height: 131px;
+      }
+    }
+  }
+}
