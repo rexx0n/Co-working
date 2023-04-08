@@ -84,3 +84,24 @@
     }
   }
 }
+@media screen and (max-width: 1024px) {
+  .seo {
+    div:last-child .seo__info p {
+      max-width: 364px;
+    }
+    &__row {
+      p {
+        font-size: 14px;
+      }
+      img {
+        max-width: 364px;
+        max-height: 262px;
+      }
+    }
+    &__title {
+      h1 {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

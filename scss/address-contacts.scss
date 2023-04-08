@@ -1,6 +1,9 @@
 .address-contacts {
   margin-top: 100px;
   margin-bottom: 100px;
+  &--768-img {
+    display: none;
+  }
   h3 {
     font-weight: 400;
     font-size: 28px;
@@ -81,6 +84,25 @@
       span {
         font-size: 16px;
         line-height: 22px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1024px) {
+  .address-contacts {
+    &--768-img {
+      display: block;
+    }
+    &__panel {
+      h3 {
+        font-size: 20px;
+      }
+    }
+    &__card {
+      img {
+        &:first-child {
+          display: none;
+        }
       }
     }
   }

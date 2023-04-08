@@ -34,3 +34,21 @@
     }
   }
 }
+@media screen and (max-width: 1024px) {
+  .improvements {
+    &__card {
+      img {
+        max-width: 236px;
+        max-height: 232px;
+      }
+    }
+    &__info {
+      h4 {
+        font-size: 18px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+}

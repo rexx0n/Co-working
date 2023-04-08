@@ -98,3 +98,40 @@
     }
   }
 }
+@media screen and (max-width: 1024px) {
+  .team {
+    margin-top: 225px;
+    &__row {
+      h1 {
+        margin-top: -80px;
+        margin-left: -218px;
+      }
+      img {
+        max-width: 236px;
+        max-height: 240px;
+      }
+    }
+    &__panel {
+      span {
+        font-size: 18px;
+        span {
+          font-size: 14px;
+        }
+      }
+    }
+    &__carousel {
+      justify-content: center;
+    }
+    &__card {
+      &:last-child {
+        display: none;
+      }
+      span {
+        display: none;
+      }
+      p {
+        display: none;
+      }
+    }
+  }
+}

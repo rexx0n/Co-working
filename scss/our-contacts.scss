@@ -62,3 +62,21 @@
     }
   }
 }
+@media screen and (max-width: 1024px) {
+  .our-contacts {
+    img {
+      max-width: 410px;
+      max-height: 301px;
+    }
+    &__contacts {
+      span {
+        font-size: 16px;
+      }
+    }
+    &__info {
+      a {
+        font-size: 20px;
+      }
+    }
+  }
+}
