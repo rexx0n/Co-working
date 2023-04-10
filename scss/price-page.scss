@@ -89,3 +89,23 @@
     }
   }
 }
+@media screen and (max-width: 1024px) {
+  .price-page {
+    h1 {
+      font-size: 30px;
+    }
+    &__info {
+      p {
+        font-size: 14px;
+      }
+    }
+    &__card {
+      h4 {
+        font-size:12px ;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+}

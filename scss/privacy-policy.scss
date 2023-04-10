@@ -16,5 +16,14 @@
   }
   .footer {
     margin-bottom: 11px;
-  } 
+  }
+}
+@media screen and (max-width: 1024px) {
+  .privacy-policy {
+    &__text {
+      p {
+        font-size: 14px;
+      }
+    }
+  }
 }

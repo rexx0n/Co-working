@@ -53,3 +53,13 @@
     }
   }
 }
+@media screen and (max-width: 1024px) {
+  .news {
+    &__info {
+      p {
+        font-size: 20px;
+        max-width: 509px;
+      }
+    }
+  }
+}
