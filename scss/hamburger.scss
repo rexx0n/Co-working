@@ -1,0 +1,63 @@
+.hamburger {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .hamburger {
+    margin-top: 7px;
+    display: block;
+    &__none {
+      display: none;
+    }
+    &__active {
+      width: 298px;
+      background: #f9f9f9;
+      margin-top: -7px;
+      box-shadow: 1px 0px 11px;
+      padding: 28px 26px 330px 11px;
+      margin-left: -10px;
+      nav {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        a {
+          font-size: 20px;
+          line-height: 120%;
+          color: #757070;
+          font-family: "Tenor Sans";
+          text-decoration: none;
+          margin-left: 23px;
+        }
+      }
+    }
+    &__line {
+      width: 21px;
+      height: 1.17px;
+      opacity: 0.56;
+      background-color: black;
+    }
+    &__lines {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      margin-right: 10px;
+    }
+    &__header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      div:first-child {
+        display: flex;
+        align-items: center;
+      }
+      > svg:last-child {
+        align-self: flex-start;
+      }
+      nav {
+        margin-top: 70px;
+      }
+    }
+  }
+}
+#none {
+  display: none;
+}
