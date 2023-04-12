@@ -84,3 +84,21 @@
     }
   }
 }
+@media screen and (max-width: 768px) {
+  .forWho {
+    flex-wrap: wrap;
+    &__professions {
+      gap: 19px;
+    }
+    &__card {
+      h4 {
+        font-size: 18px;
+        margin-top: 0;
+      }
+      img {
+        max-width: 168px;
+        max-height: 151px;
+      }
+    }
+  }
+}

@@ -93,3 +93,18 @@
     }
   }
 }
+@media screen and (max-width: 768px) {
+  .benefits {
+    margin-top: 40px;
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    &__card {
+      height: 180px;
+    }
+    &__link {
+      display: none;
+    }
+  }
+}

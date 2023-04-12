@@ -59,3 +59,19 @@
     }
   }
 }
+@media screen and (max-width: 768px) {
+  .main {
+    padding-bottom: 265px;
+    h1 {
+      font-size: 35px;
+      text-align: center;
+      line-height: 41px;
+    }
+    &__p {
+      display: none;
+    }
+    &__info {
+      align-items: center;
+    }
+  }
+}

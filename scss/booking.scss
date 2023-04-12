@@ -33,3 +33,20 @@
     }
   }
 }
+@media screen and (max-width: 768px) {
+  .booking {
+    flex-wrap: wrap;
+    margin-top: 40px;
+    gap: 20px;
+    img {
+      max-height: 326px;
+      max-width: 355px;
+    }
+    p {
+      font-size: 14px;
+    }
+    h1 {
+      font-size: 24px;
+    }
+  }
+}

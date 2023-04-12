@@ -130,3 +130,11 @@
     }
   }
 }
+@media screen and (max-width: 768px) {
+  .price {
+    margin-top: 40px;
+    &__card:first-child {
+      display: none;
+    }
+  }
+}

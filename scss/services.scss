@@ -150,10 +150,8 @@
         max-height: 237px;
       }
       &--parking {
-        img {
-          max-width: 161px;
-          max-height: 97px;
-        }
+        max-width: 161px;
+        max-height: 97px;
       }
       &--kitchen {
         img {
@@ -165,6 +163,38 @@
         img {
           max-width: 131px;
           max-height: 97px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .services {
+    margin-top: 40px;
+    h1 {
+      font-size: 24px;
+    }
+    &__card {
+      padding: 10px 16px 0 16px;
+      max-width: 355px;
+      max-height: 225px;
+      h4 {
+        font-size: 20px;
+        padding-bottom: 4px;
+      }
+      p {
+        font-size: 14px;
+      }
+      &--parking {
+        img {
+          width: 193px;
+          height: 126px;
+        }
+      }
+      &--kitchen {
+        img {
+          width: 200px;
+          height: 130px;
         }
       }
     }

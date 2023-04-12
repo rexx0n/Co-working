@@ -15,3 +15,11 @@
     background-position-y: bottom;
   }
 }
+@media screen and (max-width: 765px) {
+  .bg {
+    background: url(../img/bg-375.png);
+
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+}
