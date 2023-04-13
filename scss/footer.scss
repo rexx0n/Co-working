@@ -110,3 +110,28 @@
     }
   }
 }
+@media screen and (max-width: 768px) {
+  .footer {
+    &__info {
+      flex-direction: column;
+    }
+    &__adress {
+      gap: 20px;
+    }
+    &__a {
+      max-width: 117px;
+      &:last-child {
+        max-width: 187px;
+      }
+    }
+    &__contacts {
+      gap: 0px;
+    }
+    &__links {
+      margin: 0;
+      margin-top: 20px;
+      align-items: flex-start;
+      text-align: start;
+    }
+  }
+}

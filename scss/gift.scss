@@ -112,3 +112,25 @@
     }
   }
 }
+@media screen and (max-width: 768px) {
+  .gift {
+    img {
+      max-width: 355px;
+    }
+    &__row {
+      gap: 20px;
+      flex-direction: column-reverse;
+      &--2 {
+        flex-direction: column;
+      }
+      .gift__info {
+        p {
+          font-size: 12px;
+        }
+        a {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

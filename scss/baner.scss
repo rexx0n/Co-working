@@ -44,3 +44,16 @@
     }
   }
 }
+@media screen and (max-width: 768px) {
+  .baner {
+    margin: 0;
+    max-width: 355px;
+    background-position: top;
+    padding-left: 12px;
+    padding-top: 345px;
+    padding-bottom: 28px;
+    h3 {
+      font-size: 23px;
+    }
+  }
+}
