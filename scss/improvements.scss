@@ -52,3 +52,23 @@
     }
   }
 }
+@media screen and (max-width: 768px) {
+  .improvements {
+    margin-top: 40px;
+    &__info {
+      h4 {
+        font-size: 20px;
+      }
+    }
+    &__card {
+      display: none;
+      img {
+        max-width: 355px;
+        max-height: 349px;
+      }
+      &:first-child {
+        display: flex;
+      }
+    }
+  }
+}

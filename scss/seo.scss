@@ -105,3 +105,34 @@
     }
   }
 }
+@media screen and (max-width: 768px) {
+  .seo {
+    margin-top: 40px;
+    &__title {
+      p {
+        font-size: 14px;
+      }
+    }
+    &__row {
+      &:last-child {
+        .seo__info {
+          flex-direction: column;
+        }
+      }
+      gap: 20px;
+      flex-direction: column-reverse;
+    }
+    &__info {
+      h1 {
+        font-size: 24px;
+      }
+      p {
+        font-size: 12px;
+      }
+      a {
+        font-size: 14px;
+        font-weight: 700;
+      }
+    }
+  }
+}

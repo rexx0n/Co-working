@@ -85,3 +85,16 @@
     }
   }
 }
+@media screen and (max-width: 768px) {
+  .finance {
+    &__row {
+      img {
+        max-width: 167px;
+        height: 173px;
+      }
+    }
+    ul {
+      margin-left: 0;
+    }
+  }
+}
