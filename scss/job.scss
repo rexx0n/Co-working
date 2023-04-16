@@ -139,3 +139,24 @@
     }
   }
 }
+@media screen and (max-width: 768px) {
+  .job {
+    &__title {
+      img {
+        max-width: 355px;
+      }
+    }
+    &__payments {
+      flex-direction: column;
+      gap: 20px;
+    }
+    &__message {
+      padding: 34px 84px 33px 71px;
+      line-height: 120%;
+      font-size: 16px;
+    }
+    &__price {
+      flex-direction: column;
+    }
+  }
+}

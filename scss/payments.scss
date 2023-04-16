@@ -29,3 +29,9 @@
     }
   }
 }
+@media screen and (max-width: 768px) {
+  .payments {
+    gap: 20px;
+    flex-direction: column;
+  }
+}
