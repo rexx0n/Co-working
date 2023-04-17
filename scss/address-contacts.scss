@@ -113,3 +113,29 @@
     }
   }
 }
+@media screen and (max-width: 768px) {
+  .address-contacts {
+    margin-bottom: 40px;
+    h1 {
+      font-size: 24px;
+    }
+    &__panel {
+      button {
+        margin-top: 20px;
+      }
+    }
+    &__contacts {
+      flex-direction: column;
+      gap: 20px;
+    }
+    &__card {
+      flex-direction: column;
+      h3 {
+        display: none;
+      }
+      img {
+        max-width: 355px;
+      }
+    }
+  }
+}

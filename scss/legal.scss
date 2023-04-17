@@ -46,3 +46,18 @@
     }
   }
 }
+@media screen and (max-width: 768px) {
+  .legal {
+    &__list {
+      ul {
+        li {
+          a {
+            font-size: 20px;
+            max-width: 230px;
+            line-height: 120%;
+          }
+        }
+      }
+    }
+  }
+}

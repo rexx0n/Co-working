@@ -81,4 +81,12 @@
   }
 }
 @media screen and (max-width: 768px) {
+  .our-contacts {
+    flex-direction: column;
+    gap: 20px;
+    img {
+      max-width: 355px;
+      height: 363px;
+    }
+  }
 }

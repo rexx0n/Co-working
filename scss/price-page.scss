@@ -101,9 +101,31 @@
     }
     &__card {
       h4 {
-        font-size:12px ;
+        font-size: 12px;
       }
       p {
+        font-size: 14px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .price-page {
+    h1 {
+      font-size: 24px;
+      line-height: 120%;
+    }
+    &__info {
+      margin-top: 20px;
+    }
+    &__cards {
+      flex-direction: column;
+    }
+    &__card {
+      p {
+        font-size: 20px;
+      }
+      h5 {
         font-size: 14px;
       }
     }
