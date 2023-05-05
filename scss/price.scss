@@ -139,14 +139,15 @@
 }
 @media screen and (max-width: 1024px) {
   .price {
-    &__carousel-arrow {
-      position: absolute;
+    &__carousel {
+      width: 473px;
+
     }
     > p {
       font-size: 14px;
     }
     &__cards {
-      width:1130px ;
+      width:1147px ;
     }
     &__card {
       padding: 44px 28px;
@@ -156,6 +157,10 @@
 }
 @media screen and (max-width: 768px) {
   .price {
+    &__carousel {
+      margin-left: -60px;
+      width: 473px;
+    }
     margin-top: 40px;
     &__card:first-child {
       display: none;
