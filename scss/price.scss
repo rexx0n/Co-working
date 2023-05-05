@@ -1,5 +1,8 @@
 .price {
   margin-top: 100px;
+  &__carousel-arrow {
+    display: none;
+  }
   &__week {
     display: flex;
     flex-direction: column;
@@ -43,7 +46,6 @@
   }
   &__card {
     background: #ffffff;
-    box-shadow: 0px 4px 10px 10px rgb(0 0 0 / 4%);
     border-radius: 24px;
     padding: 44px;
     max-width: 387px;
@@ -104,8 +106,26 @@
 }
 @media screen and (max-width: 1440px) {
   .price {
+    &__carousel {
+      display: flex;
+      align-items: center;
+    }
+    &__carousel-arrow {
+      display: block;
+      background: #FFFFFF;
+      box-shadow: 0px 12px 14px rgba(54, 51, 72, 0.137812);
+      border-radius:50px;
+      border: none;
+      padding:20px 20px 19px 25px;
+    }
+    &__overflow {
+      overflow: hidden;
+    }
     &__cards {
+      width: 1201px;
       justify-content: center;
+      transform: translateX(0px);
+      transition: 1.4s
     }
     > p {
       max-width: 643px;
@@ -115,18 +135,22 @@
         line-height: 120%;
       }
     }
-    &__none {
-      display: none;
-    }
   }
 }
 @media screen and (max-width: 1024px) {
   .price {
+    &__carousel-arrow {
+      position: absolute;
+    }
     > p {
       font-size: 14px;
     }
+    &__cards {
+      width:1130px ;
+    }
     &__card {
       padding: 44px 28px;
+      max-width: 364px;
     }
   }
 }

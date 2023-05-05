@@ -272,96 +272,112 @@
             <p>Ввели 3 тарифа для почасовой аренды, аренды на всю смену и долгосрочной аренды. Каждый сможет подобрать
                 лучший для себя вариант
             </p>
-            <div class="price__cards">
-                <div class="price__card">
-                    <h4>Почасовая аренда </h4>
-                    <p>ул. Пятницкая 62с7</p>
-                    <div class="price__week">
-                        <div class="price__row">
-                            <span class="price__weekdays">Пн-Пт :</span>
-                            <span class="price__price">500 ₽</span>
-                            <button>в час</button>
+            <div class="price__carousel">
+                <button class="price__carousel-arrow price__carousel-arrow--left">
+                    <svg width="9" height="15" viewBox="0 0 9 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.27197 1.11328L1.79488 7.59037L8.27197 14.0675" stroke="#EBEBEB" stroke-width="2"/>
+                    </svg>
+                </button>
+                <div class="price__overflow">
+                    <div class="price__cards">
+                        <div class="price__card">
+                            <h4>Почасовая аренда </h4>
+                            <p>ул. Пятницкая 62с7</p>
+                            <div class="price__week">
+                                <div class="price__row">
+                                    <span class="price__weekdays">Пн-Пт :</span>
+                                    <span class="price__price">500 ₽</span>
+                                    <button>в час</button>
+                                </div>
+                                <div class="price__row">
+                                    <span class="price__weekdays">Сб-Вс :</span>
+                                    <span class="price__price">500 ₽</span>
+                                    <button>в час</button>
+                                </div>
+                            </div>
+                            <p>ул. Серебрянническая набережная 27</p>
+                            <div class="price__week">
+                                <div class="price__row">
+                                    <span class="price__weekdays">Пн-Пт :</span>
+                                    <span class="price__price">400 ₽</span>
+                                    <button>в час</button>
+                                </div>
+                                <div class="price__row">
+                                    <span class="price__weekdays">Сб-Вс :</span>
+                                    <span class="price__price">450 ₽</span>
+                                    <button>в час</button>
+                                </div>
+                            </div>
+                            <button class="price__button">Выбрать время</button>
                         </div>
-                        <div class="price__row">
-                            <span class="price__weekdays">Сб-Вс :</span>
-                            <span class="price__price">500 ₽</span>
-                            <button>в час</button>
+                        <div class="price__card">
+                            <h4>Аренда на целый день </h4>
+                            <p>ул. Пятницкая 62с7</p>
+                            <div class="price__week">
+                                <div class="price__row">
+                                    <span class="price__weekdays">Пн-Пт :</span>
+                                    <span class="price__price">4500 ₽</span>
+                                    <button>в день</button>
+                                </div>
+                                <div class="price__row">
+                                    <span class="price__weekdays">Сб-Вс :</span>
+                                    <span class="price__price">5000 ₽</span>
+                                    <button>в день</button>
+                                </div>
+                            </div>
+                            <p>ул. Серебрянническая набережная 27</p>
+                            <div class="price__week">
+                                <div class="price__row">
+                                    <span class="price__weekdays">Пн-Пт :</span>
+                                    <span class="price__price">3500 ₽</span>
+                                    <button>в день</button>
+                                </div>
+                                <div class="price__row">
+                                    <span class="price__weekdays">Сб-Вс :</span>
+                                    <span class="price__price">4000 ₽</span>
+                                    <button>в день</button>
+                                </div>
+                            </div>
+                            <span>*1 расчетный день с 10:00 до 22:00</span>
+                            <button class="price__button price__button--middle">Выбрать время</button>
+                        </div>
+                        <div class="price__card">
+                            <h4>Долгосрочная аренда</h4>
+                            <p>ул. Пятницкая 62с7</p>
+                            <div class="price__week price__week--last">
+                                <div class="price__row">
+                                    <span class="price__weekdays">С окном: </span>
+                                    <button>узнать цену</button>
+                                </div>
+                                <div class="price__row">
+                                    <span class="price__weekdays">Без окна: </span>
+                                    <button>узнать цену</button>
+                                </div>
+                            </div>
+                            <p>ул. Серебрянническая набережная 27</p>
+                            <div class="price__week price__week--last">
+                                <div class="price__row">
+                                    <span class="price__weekdays">С окном: </span>
+                                    <button>узнать цену</button>
+                                </div>
+                                <div class="price__row">
+                                    <span class="price__weekdays">Без окна: </span>
+                                    <button>узнать цену</button>
+                                </div>
+                            </div>
+                            <span>*Долгосрочной аренда - от 1 месяца</span>
+                            <button class="price__button price__button--last">Скачать планировку и цены</button>
                         </div>
                     </div>
-                    <p>ул. Серебрянническая набережная 27</p>
-                    <div class="price__week">
-                        <div class="price__row">
-                            <span class="price__weekdays">Пн-Пт :</span>
-                            <span class="price__price">400 ₽</span>
-                            <button>в час</button>
-                        </div>
-                        <div class="price__row">
-                            <span class="price__weekdays">Сб-Вс :</span>
-                            <span class="price__price">450 ₽</span>
-                            <button>в час</button>
-                        </div>
-                    </div>
-                    <button class="price__button">Выбрать время</button>
                 </div>
-                <div class="price__card">
-                    <h4>Аренда на целый день </h4>
-                    <p>ул. Пятницкая 62с7</p>
-                    <div class="price__week">
-                        <div class="price__row">
-                            <span class="price__weekdays">Пн-Пт :</span>
-                            <span class="price__price">4500 ₽</span>
-                            <button>в день</button>
-                        </div>
-                        <div class="price__row">
-                            <span class="price__weekdays">Сб-Вс :</span>
-                            <span class="price__price">5000 ₽</span>
-                            <button>в день</button>
-                        </div>
-                    </div>
-                    <p>ул. Серебрянническая набережная 27</p>
-                    <div class="price__week">
-                        <div class="price__row">
-                            <span class="price__weekdays">Пн-Пт :</span>
-                            <span class="price__price">3500 ₽</span>
-                            <button>в день</button>
-                        </div>
-                        <div class="price__row">
-                            <span class="price__weekdays">Сб-Вс :</span>
-                            <span class="price__price">4000 ₽</span>
-                            <button>в день</button>
-                        </div>
-                    </div>
-                    <span>*1 расчетный день с 10:00 до 22:00</span>
-                    <button class="price__button price__button--middle">Выбрать время</button>
-                </div>
-                <div class="price__card price__none">
-                    <h4>Долгосрочная аренда</h4>
-                    <p>ул. Пятницкая 62с7</p>
-                    <div class="price__week price__week--last">
-                        <div class="price__row">
-                            <span class="price__weekdays">С окном: </span>
-                            <button>узнать цену</button>
-                        </div>
-                        <div class="price__row">
-                            <span class="price__weekdays">Без окна: </span>
-                            <button>узнать цену</button>
-                        </div>
-                    </div>
-                    <p>ул. Серебрянническая набережная 27</p>
-                    <div class="price__week price__week--last">
-                        <div class="price__row">
-                            <span class="price__weekdays">С окном: </span>
-                            <button>узнать цену</button>
-                        </div>
-                        <div class="price__row">
-                            <span class="price__weekdays">Без окна: </span>
-                            <button>узнать цену</button>
-                        </div>
-                    </div>
-                    <span>*Долгосрочной аренда - от 1 месяца</span>
-                    <button class="price__button price__button--last">Скачать планировку и цены</button>
-                </div>
+                <button class="price__carousel-arrow price__carousel-arrow--right">
+                    <svg width="10" height="15" viewBox="0 0 10 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.22656 1.11328L7.70365 7.59037L1.22656 14.0675" stroke="#010101" stroke-width="2"/>
+                    </svg>
+                </button>
             </div>
+
+
         </div>
         <div class="forWho">
             <div class="forWho__info">
