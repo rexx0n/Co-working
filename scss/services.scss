@@ -150,8 +150,10 @@
         max-height: 237px;
       }
       &--parking {
-        max-width: 161px;
-        max-height: 97px;
+        img {
+          max-width: 161px;
+          max-height: 97px;
+        }
       }
       &--kitchen {
         img {

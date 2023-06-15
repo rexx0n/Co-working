@@ -112,11 +112,11 @@
     }
     &__carousel-arrow {
       display: block;
-      background: #FFFFFF;
+      background: #ffffff;
       box-shadow: 0px 12px 14px rgba(54, 51, 72, 0.137812);
-      border-radius:50px;
+      border-radius: 50px;
       border: none;
-      padding:20px 20px 19px 25px;
+      padding: 20px 20px 19px 25px;
     }
     &__overflow {
       overflow: hidden;
@@ -125,7 +125,7 @@
       width: 1201px;
       justify-content: center;
       transform: translateX(0px);
-      transition: 1.4s
+      transition: 1.4s;
     }
     > p {
       max-width: 643px;
@@ -140,14 +140,14 @@
 @media screen and (max-width: 1024px) {
   .price {
     &__carousel {
-      width: 473px;
-
+      width: 874px;
+      margin-left: -46px;
     }
     > p {
       font-size: 14px;
     }
     &__cards {
-      width:1147px ;
+      width: 1147px;
     }
     &__card {
       padding: 44px 28px;
@@ -160,6 +160,9 @@
     &__carousel {
       margin-left: -60px;
       width: 473px;
+    }
+    &__cards {
+      width: 759px;
     }
     margin-top: 40px;
     &__card:first-child {
