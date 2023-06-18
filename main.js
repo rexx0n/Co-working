@@ -25,7 +25,6 @@ close.addEventListener("click", function (e) {
 //карусель
 let leftArrow = document.querySelector(".price__carousel-arrow--left");
 let rightArrow = document.querySelector(".price__carousel-arrow--right");
-let slider = document.querySelector(".price__carousel");
 let sliderLine = document.querySelector(".price__cards");
 let imgs = document.querySelectorAll(".price__cards .price__card");
 let count = 0;
@@ -66,4 +65,47 @@ rightArrow.addEventListener("click", () => {
     translate = translate - -385;
   }
   rollSlider();
+});
+//карусель2
+let leftArrowAbout = document.querySelector(".team__carousel-btn--left");
+let rightArrowAbout = document.querySelector(".team__carousel-btn--right");
+let teamCarousel = document.querySelector(".team__carousel");
+let cards = document.querySelectorAll(".team__card");
+let countAbout = 0;
+let widthAbout;
+let translateAbout = 0;
+
+function initAbout() {
+  cards.forEach((item) => {
+    item.style.width = widthAbout + "px";
+  });
+  rollSliderAbout();
+}
+window.addEventListener("resize", initAbout);
+
+initAbout();
+
+function rollSliderAbout() {
+  teamCarousel.style.transform = "translate(-" + translateAbout + "px)";
+}
+leftArrowAbout.addEventListener("click", () => {
+  countAbout--;
+  if (countAbout <= 0) {
+    countAbout = cards.length - 1;
+    translate = translateAbout - -385;
+  } else {
+    translate = translateAbout + -385;
+  }
+  rollSliderAbout();
+});
+
+rightArrowAbout.addEventListener("click", () => {
+  countAbout++;
+  if (countAbout >= cards.length - 1) {
+    translateAbout = 0;
+    countAbout = 0;
+  } else {
+    translateAbout = translateAbout - -385;
+  }
+  rollSliderAbout();
 });
