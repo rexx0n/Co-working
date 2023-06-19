@@ -4,6 +4,9 @@
     margin-top: 40px;
     display: flex;
     gap: 21px;
+    transition: 1s;
+  }
+  &__overflow {
     overflow: hidden;
   }
   &__card {
@@ -33,6 +36,9 @@
     position: absolute;
     &--right {
       right: 0;
+    }
+    &--left {
+      position: unset;
     }
   }
   &__row {
