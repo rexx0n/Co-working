@@ -109,10 +109,6 @@
       }
     }
     &__card {
-      img {
-        max-width: 211px;
-        max-height: 213px;
-      }
       span {
         font-size: 26px;
       }
@@ -127,10 +123,6 @@
         margin-top: -80px;
         margin-left: -218px;
       }
-      img {
-        max-width: 236px;
-        max-height: 240px;
-      }
     }
     &__panel {
       span {
@@ -140,13 +132,7 @@
         }
       }
     }
-    &__carousel {
-      justify-content: center;
-    }
     &__card {
-      &:last-child {
-        display: none;
-      }
       span {
         display: none;
       }
@@ -171,10 +157,6 @@
       margin-left: 0;
     }
     &__row {
-      img {
-        max-width: 355px;
-        max-height: 345px;
-      }
       flex-direction: column;
     }
     &__card {
@@ -185,16 +167,6 @@
       p {
         display: block;
         font-size: 14px;
-      }
-      img {
-        max-width: 168px;
-        max-height: 166px;
-      }
-      &:last-child {
-        display: none;
-      }
-      &:first-child {
-        display: none;
       }
     }
   }

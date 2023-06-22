@@ -26,9 +26,9 @@ leftArrowAbout.addEventListener("click", () => {
   console.log(countAbout);
   if (countAbout <= 0) {
     countAbout = cards.length;
-    translateAbout = translateAbout - -661;
+    translateAbout = translateAbout - -1520;
   } else {
-    translateAbout = translateAbout - 304;
+    translateAbout = translateAbout + -304;
   }
   rollSliderAbout();
 });
