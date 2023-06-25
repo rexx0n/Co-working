@@ -7,9 +7,28 @@
       color: #000000;
     }
   }
+  &__overflow {
+    overflow: hidden;
+  }
+  &__slider {
+    display: flex;
+    gap: 63px;
+    justify-content: space-between;
+    width: 1160px;
+    transition: 1s;
+  }
+  &__btn {
+    position: relative;
+    &--left {
+      margin-right: -35px;
+    }
+    &--right {
+      margin-left: -35px;
+    }
+  }
   &__carousel {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
   }
   &__phone {
     background: #d9d9d9;
@@ -29,13 +48,6 @@
       line-height: 10px;
       color: #5d5d5d;
       padding: 10px;
-    }
-  }
-}
-@media screen and (max-width: 1440px) {
-  .vibe-coworking {
-    &__none {
-      display: none;
     }
   }
 }
