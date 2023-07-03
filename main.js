@@ -33,6 +33,7 @@ let width;
 let translate = 0;
 
 function init() {
+  width = widndow.innerWidth;
   imgs.forEach((item) => {
     item.style.width = width + "px";
   });
@@ -59,7 +60,7 @@ leftArrow.addEventListener("click", () => {
 
 rightArrow.addEventListener("click", () => {
   count++;
-  if (count >= imgs.length - 1) {
+  if (count >= imgs.length) {
     translate = 0;
     count = 0;
   } else {

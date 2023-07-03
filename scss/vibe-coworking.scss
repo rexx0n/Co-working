@@ -65,13 +65,13 @@
 @media screen and (max-width: 768px) {
   .vibe-coworking {
     margin-top: 40px;
+    &__overflow {
+      width: 240px;
+    }
     h1 {
       font-size: 24px;
       font-weight: 400;
       text-transform: lowercase;
-    }
-    &__phone:first-child {
-      display: none;
     }
   }
 }
